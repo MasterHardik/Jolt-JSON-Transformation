@@ -118,3 +118,5 @@ Jolt uses several special symbols in its specifications:
 
 Purpose: Adjusts the cardinality (number of items) of input data.
 Example: ```"itemsList": "items"``` converts the items array into itemsList.
+
+For more information about Jolt, check out the [Digibee documentation](https://docs.digibee.com/documentation/components/tools/transformer-jolt/transformer-getting-to-know-jolt#jolt---json-language-for-transform).
