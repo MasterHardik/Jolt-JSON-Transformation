@@ -1,0 +1,40 @@
+[
+    {
+        "Shift Example": {
+            "shift": {
+                "name": "fullName",
+                "age": "userAge",
+                "address": {
+                    "city": "location.city",
+                    "state": "location.state"
+                },
+                "items": {
+                    "*": {
+                        "item": "itemsList[].name",
+                        "price": "itemsList[].price"
+                    }
+                }
+            }
+        },
+        "Default Example": {
+            "default": {
+                "country": "USA"
+            }
+        },
+        "Remove Example": {
+            "remove": {
+                "address": ""
+            }
+        },
+        "Sort Example": {
+            "sort": {
+                "itemsList": "items"
+            }
+        },
+        "Cardinality Example": {
+            "cardinality": {
+                "itemsList": "items"
+            }
+        }
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Master",
+        "age": 21,
+        "address": {
+            "city": "New York",
+            "state": "NY"
+        },
+        "items": [
+            {
+                "item": "Book",
+                "price": 12.99
+            },
+            {
+                "item": "Pen",
+                "price": 1.99
+            }
+        ]
+    }
+]
